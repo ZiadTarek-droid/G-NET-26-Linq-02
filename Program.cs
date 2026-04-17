@@ -151,6 +151,10 @@
             //var evens = Enumerable.Range(1, 30)
             //.Where(n => n % 2 == 0); 
             #endregion
+            #region Q20
+            //var combined = products.Take(3).Select(p => p.ProductName)
+            //.Concat(customers.Take(3).Select(c => c.CompanyName)); 
+            #endregion
         }
     }
 }
