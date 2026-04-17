@@ -114,6 +114,11 @@
             //var minPrice = products.Min(p => p.UnitPrice);
             //var maxPrice = products.Max(p => p.UnitPrice); 
             #endregion
+            #region Q12
+            //var distinctCategories = products
+            //.Select(p => p.Category)
+            //.Distinct(); 
+            #endregion
         }
     }
 }
