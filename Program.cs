@@ -58,6 +58,12 @@
             //    Names = g.Select(p => p.ProductName)
             //}); 
             #endregion
+            #region Q8
+            //var categories = products
+            //.GroupBy(p => p.Category)
+            //.Where(g => g.Count() > 3)
+            //.Select(g => g.Key); 
+            #endregion
         }
     }
 }
