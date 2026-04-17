@@ -147,6 +147,10 @@
             //var table = Enumerable.Range(1, 10)
             //.Select(i => 7 * i); 
             #endregion
+            #region Q19
+            //var evens = Enumerable.Range(1, 30)
+            //.Where(n => n % 2 == 0); 
+            #endregion
         }
     }
 }
