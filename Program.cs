@@ -15,6 +15,38 @@
                 new Product { ProductID = 7, ProductName = "Tofu", Category = "Produce", UnitPrice = 23, UnitsInStock = 35 },
                 new Product { ProductID = 8, ProductName = "Pavlova", Category = "Confections", UnitPrice = 17, UnitsInStock = 29 }
             };
+            // Create Customers List
+            List<Customer> customers = new List<Customer>()
+        {
+            new Customer
+            {
+                CustomerID = 1,
+                CompanyName = "ABC Corp",
+                Country = "Germany",
+                Orders = new List<Order>
+                {
+                    new Order { OrderID = 1, Total = 200 },
+                    new Order { OrderID = 2, Total = 150 }
+                }
+            },
+            new Customer
+            {
+                CustomerID = 2,
+                CompanyName = "XYZ Ltd",
+                Country = "France",
+                Orders = new List<Order>
+                {
+                    new Order { OrderID = 3, Total = 300 }
+                }
+            },
+            new Customer
+            {
+                CustomerID = 3,
+                CompanyName = "Tech Co",
+                Country = "Germany",
+                Orders = new List<Order>()
+            }
+        };
             #region Q1
             //var top3 = products
             //.OrderByDescending(p => p.UnitPrice)
@@ -63,6 +95,17 @@
             //.GroupBy(p => p.Category)
             //.Where(g => g.Count() > 3)
             //.Select(g => g.Key); 
+            #endregion
+            #region Q9
+            //var result =
+            //from c in customers
+            //group c by c.Country into g
+            //select new
+            //{
+            //    Country = g.Key,
+            //    Count = g.Count(),
+            //    TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //}; 
             #endregion
         }
     }
