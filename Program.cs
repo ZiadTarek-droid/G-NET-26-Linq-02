@@ -137,6 +137,9 @@
 
             //var product18 = dict.ContainsKey(18) ? dict[18] : null; 
             #endregion
+            #region Q16
+            //var product = products.First(p => p.UnitPrice > 50); 
+            #endregion
         }
     }
 }
