@@ -25,6 +25,11 @@
             //.Skip(5)
             //.Take(5); 
             #endregion
+            #region Q3
+            //var cheapProducts = products
+            //.OrderBy(p => p.UnitPrice)
+            //.TakeWhile(p => p.UnitPrice < 25); 
+            #endregion
         }
     }
 }
