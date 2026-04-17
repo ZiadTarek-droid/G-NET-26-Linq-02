@@ -30,6 +30,11 @@
             //.OrderBy(p => p.UnitPrice)
             //.TakeWhile(p => p.UnitPrice < 25); 
             #endregion
+            #region Q4
+            //bool allSeafoodInStock = products
+            //.Where(p => p.Category == "Seafood")
+            //.All(p => p.UnitsInStock > 0); 
+            #endregion
         }
     }
 }
