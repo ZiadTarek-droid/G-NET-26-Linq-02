@@ -107,6 +107,13 @@
             //    TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
             //}; 
             #endregion
+            #region Q10
+            //int totalUnits = products.Sum(p => p.UnitsInStock); 
+            #endregion
+            #region Q11
+            //var minPrice = products.Min(p => p.UnitPrice);
+            //var maxPrice = products.Max(p => p.UnitPrice); 
+            #endregion
         }
     }
 }
