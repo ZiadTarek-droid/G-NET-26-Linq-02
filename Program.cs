@@ -40,6 +40,15 @@
 
             //bool contains9 = ids.Contains(9); 
             #endregion
+            #region Q6
+            //var grouped = products
+            //  .GroupBy(p => p.Category)
+            //  .Select(g => new
+            //  {
+            //      Category = g.Key,
+            //      Count = g.Count()
+            //  }); 
+            #endregion
         }
     }
 }
